@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TodoIt</title>
+</head>
+<body id="todoIt" style="text-align: center">
+  <h1>TodoIt</h1>
+  <p>What needs to be done?
+  <input type="text" id="todoInput" title="Add something, you look idle." onBlur="addTodo()"/>
+  <input type="button" value="G'head" onclick="addTodo()" />
+</p>
+<h2>Current todo list</h2>
+<p>Filter: <input type="text" id="todoFilter" title="Todo List filter" onkeyup="filterTodoList()" onblur="filterTodoList()" /></p>
+<div id="todoListContainer">Idle hands.</div>
+<script type="text/javascript" src="todo-it.js"></script>
+</body>
+</html>

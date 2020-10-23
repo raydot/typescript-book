@@ -4,7 +4,9 @@
   "description": "Chapter 2 of Learn Typescript 3 by Building Web Applications",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tsc": "tsc",
+    "watch": "tsc --watch",
+    "serve": "browser-sync start --server --watch"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/raydot/typescript-book/issues"
   },
-  "homepage": "https://github.com/raydot/typescript-book#readme"
+  "homepage": "https://github.com/raydot/typescript-book#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "typescript": "3.4.4"
+  }
 }
