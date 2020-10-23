@@ -1,0 +1,24 @@
+{
+  "name": "todoit-vi",
+  "version": "1.0.0",
+  "description": "Chapter 2 of Learn Typescript 3 by Building Web Applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raydot/typescript-book.git"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "todo"
+  ],
+  "author": "Dave Kanter",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/raydot/typescript-book/issues"
+  },
+  "homepage": "https://github.com/raydot/typescript-book#readme"
+}
